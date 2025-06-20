@@ -84,7 +84,7 @@
 
         layer_3 {
             bindings = <
-&kp ESC  &trans           &mkp MB1        &mmv MOVE_UP     &mkp MB2         &trans                             &trans          &mkp MCLK        &kp N7         &kp N8           &kp N9        &trans       &kp LC(LA(DEL))
+&kp ESC  &trans           &mkp MB2        &mmv MOVE_UP     &mkp MB1         &trans                             &trans          &mkp MCLK        &kp N7         &kp N8           &kp N9        &trans       &kp LC(LA(DEL))
 &trans   &msc SCRL_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &msc SCRL_UP               &trans  &trans  &trans  &mkp MB1         &mt RSHIFT N4  &mt RALT N5      &mt RCTRL N6  &mt RGUI N0  &rgb_ug RGB_TOG
 &trans   &msc SCRL_LEFT   &mkp MB4        &mkp MCLK        &mkp MB5         &msc SCRL_DOWN   &trans            &trans          &mkp MB2         &kp N1         &kp N2           &kp N3        &trans       &rgb_ug RGB_COLOR_HSB(183,43,62)
                                           &rgb_ug RGB_BRI  &trans           &rgb_ug RGB_EFF                                    &rgb_ug RGB_EFR  &trans         &rgb_ug RGB_BRD
