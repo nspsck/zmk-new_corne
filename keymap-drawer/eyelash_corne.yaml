@@ -48,7 +48,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-caps$$
   '1':
   - Sft+~
   - Sft+!
@@ -140,7 +140,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - PLAY PAUSE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -161,7 +161,7 @@ layers:
   - KP 9
   - KP NUMLOCK
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-right$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -176,7 +176,7 @@ layers:
   - {t: KP 6, h: '$$mdi:apple-keyboard-control$$'}
   - {t: KP 0, h: RGUI}
   - RGB TOG
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-left$$
   - '&mkp MB4'
   - $$mdi:mouse-scroll-wheel$$
@@ -189,7 +189,7 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - RGB COLOR HSB(183,100,50)
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB BRI
   - {type: held}
   - RGB EFF
