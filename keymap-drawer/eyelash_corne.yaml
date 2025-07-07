@@ -60,9 +60,9 @@ layers:
   - Sft+^
   - Sft+&
   - Sft+*
-  - Sft+(
-  - Sft+)
-  - Sft+|
+  - '|'
+  - {t: \, s: '|'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '`', s: '~'}
   - {t: '1', h: LGUI, s: '!'}
   - {t: '2', h: '$$mdi:apple-keyboard-control$$', s: '@'}
@@ -77,21 +77,21 @@ layers:
   - {t: '8', h: '$$mdi:apple-keyboard-option$$', s: '*'}
   - {t: '9', h: '$$mdi:apple-keyboard-control$$', s: (}
   - {t: '0', h: RGUI, s: )}
-  - {t: \, s: '|'}
-  - {t: '=', s: +}
-  - '{'
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
-  - Sft+(
+  - '{'
+  - (
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+)
-  - {t: ']', s: '}'}
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - )
   - '}'
-  - {t: '-', s: _}
+  - {t: ']', s: '}'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
