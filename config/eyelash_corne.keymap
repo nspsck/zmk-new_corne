@@ -80,9 +80,9 @@
 
         layer_1 {
             bindings = <
-&kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)   &kp LS(PRCNT)                    &trans          &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(PIPE)
-&kp GRAVE      &mt LGUI N1   &mt LCTRL N2  &mt LALT N3    &mt LSHIFT N4  &kp N5                   &trans  &trans  &trans  &kp N6         &mt RSHIFT N7  &mt RALT N8   &mt RCTRL N9  &mt RGUI N0   &kp BSLH
-&kp EQUAL      &kp LBRC      &kp BSPC      &none          &kp LBKT       &kp LS(LPAR)   &trans            &trans          &kp LS(RPAR)   &kp RBKT       &kp COMMA     &kp DOT       &kp RBRC      &kp MINUS
+&kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)   &kp LS(PRCNT)                    &trans          &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp PIPE      &kp BSLH     &none
+&kp GRAVE      &mt LGUI N1   &mt LCTRL N2  &mt LALT N3    &mt LSHIFT N4  &kp N5                   &trans  &trans  &trans  &kp N6         &mt RSHIFT N7  &mt RALT N8   &mt RCTRL N9  &mt RGUI N0  &none
+&none          &none         &kp LBKT      &kp LBRC       &kp LPAR       &none          &trans            &trans          &none          &kp RPAR       &kp RBRC      &kp RBKT      &none        &none
                                            &none          &trans         &none                                            &kp SPACE      &trans         &none
             >;
         };
