@@ -149,7 +149,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   '3':
   - $$mdi:keyboard-esc$$
-  - $$mdi:progress-download$$
+  - SLEEP
   - '&mkp MB2'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '&mkp MB1'
@@ -189,7 +189,7 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:progress-download$$
   - RGB BRI
   - {type: held}
   - RGB EFF
