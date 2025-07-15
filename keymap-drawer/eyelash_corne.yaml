@@ -200,15 +200,15 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Sft+Gui+1, s: Sft+Gui+!}
   - {t: Sft+Gui+2, s: Sft+Gui+@}
-  - kp LS(LG(2))
-  - kp LS(LG(2))
-  - kp LS(LG(2))
+  - {t: Sft+Gui+2, s: Sft+Gui+@}
+  - {t: Sft+Gui+2, s: Sft+Gui+@}
+  - {t: Sft+Gui+2, s: Sft+Gui+@}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - kp LS(LG(2))
-  - kp LS(LG(2))
-  - kp LS(LG(2))
-  - kp LS(LG(2))
-  - kp LS(LG(2))
+  - {t: Sft+Gui+2, s: Sft+Gui+@}
+  - {t: Sft+Gui+2, s: Sft+Gui+@}
+  - {t: Sft+Gui+2, s: Sft+Gui+@}
+  - {t: Sft+Gui+2, s: Sft+Gui+@}
+  - {t: Sft+Gui+2, s: Sft+Gui+@}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Gui+1, s: Gui+!}
