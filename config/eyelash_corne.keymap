@@ -104,6 +104,15 @@
                                           &rgb_ug RGB_BRI  &trans           &rgb_ug RGB_EFF                                    &rgb_ug RGB_EFR  &trans            &rgb_ug RGB_BRD
             >;
         };
+
+        layer_4 {
+            bindings = <
+&trans  &kp LS(LG(N1))  &kp LS(LG(N2))  &kp N3  &kp N4  &kp N5                    &trans          &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans  &kp LG(N1)      &kp N2          &kp N3  &kp N4  &kp N5            &trans  &trans  &trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans  &trans          &trans          &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
+        };
     };
 
     conditional_layers {
