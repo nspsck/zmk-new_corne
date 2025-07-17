@@ -127,6 +127,18 @@
                                        &trans          &none           &none                                         &none           &none           &none
             >;
         };
+
+        colemak_dh {
+            display-name = "colemak_dh";
+            bindings = <
+&kp ESCAPE  &kp Q       &kp W        &kp F             &kp P         &kp B                                    &mmv MOVE_UP                           &kp J      &kp L         &kp U         &kp Y        &kp SEMI       &kp BSPC
+&kp TAB     &mt LGUI A  &mt LCTRL R  &mt LALT S        &mt LSHIFT T  &kp G                    &mmv MOVE_LEFT  &mouse_click MB2 MB1  &mmv MOVE_RIGHT  &kp M      &mt RSHIFT N  &mt RALT E    &mt RCTRL I  &mt RGUI O     &kp SQT
+&kp EQUAL   &kp Z       &kp X        &kp C             &kp D         &kp V      &kp C_MUTE                    &mmv MOVE_DOWN                         &kp K      &kp H         &kp COMMA     &kp DOT      &kp FSLH       &kp MINUS
+                                     &mod_kp 4 DELETE  &mo 1         &kp SPACE                                                                       &kp ENTER  &mo 2         &kp CAPSLOCK
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
     };
 
     conditional_layers {
