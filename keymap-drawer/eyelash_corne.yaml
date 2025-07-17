@@ -245,3 +245,52 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  colemak_dh:
+  - $$mdi:keyboard-esc$$
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - {t: A, h: LGUI}
+  - {t: R, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '&mkp MB1', h: '&mkp MB2'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - M
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: O, h: RGUI}
+  - {t: '''', s: '"'}
+  - {t: '=', s: +}
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - $$mdi:volume-off$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - K
+  - H
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '-', s: _}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '4'}
+  - '1'
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '2'
+  - $$mdi:apple-keyboard-caps$$
