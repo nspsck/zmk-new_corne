@@ -93,6 +93,19 @@
         };
 
         layer_1 {
+            display-name = "CMKDH";
+            bindings = <
+&kp ESCAPE  &kp Q       &kp W        &kp F             &kp P         &kp B                                    &mmv MOVE_UP                           &kp J      &kp L         &kp U         &kp Y        &kp SEMI    &kp BSPC
+&kp TAB     &mt LGUI A  &mt LCTRL S  &mt LALT R        &mt LSHIFT T  &kp G                    &mmv MOVE_LEFT  &mouse_click MB2 MB1  &mmv MOVE_RIGHT  &kp M      &mt RSHIFT N  &mt RALT E    &mt RCTRL I  &mt RGUI O  &kp SQT
+&kp EQUAL   &kp Z       &kp X        &kp C             &kp D         &kp V      &kp C_MUTE                    &mmv MOVE_DOWN                         &kp K      &kp H         &kp COMMA     &kp DOT      &kp FSLH    &kp MINUS
+                                     &mod_kp 4 DELETE  &mo 1         &kp SPACE                                                                       &kp ENTER  &mo 2         &kp CAPSLOCK
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        layer_2 {
+            display-name = "SYMNUM";
             bindings = <
 &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)   &kp LS(PRCNT)                    &trans          &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp PIPE      &kp BSLH     &none
 &kp GRAVE      &mt LGUI N1   &mt LCTRL N2  &mt LALT N3    &mt LSHIFT N4  &kp N5                   &trans  &trans  &trans  &kp N6         &mt RSHIFT N7  &mt RALT N8   &mt RCTRL N9  &mt RGUI N0  &none
@@ -101,7 +114,8 @@
             >;
         };
 
-        layer_2 {
+        layer_3 {
+            display-name = "FN";
             bindings = <
 &kp F1          &kp F2                &kp F3         &kp F4            &kp F5                &kp F6                        &trans          &kp F7        &kp F8           &kp F9        &kp F10          &kp F11           &kp F12
 &none           &mt LGUI C_VOLUME_UP  &mt LCTRL END  &mt LALT PAGE_UP  &mt LSHIFT PAGE_DOWN  &kp HOME              &trans  &trans  &trans  &kp LEFT      &mt RSHIFT DOWN  &mt LALT UP   &mt RCTRL RIGHT  &mt RGUI C_MUTE   &none
@@ -110,7 +124,8 @@
             >;
         };
 
-        layer_3 {
+        layer_4 {
+            display-name = "MOUSE";
             bindings = <
 &kp ESC      &none            &mkp MB2        &mmv MOVE_UP     &mkp MB1         &kp PRINTSCREEN                    &trans          &mkp MCLK        &kp KP_N7         &kp KP_N8        &kp KP_N9        &kp KP_NUMLOCK  &kp LC(LA(DEL))
 &none        &msc SCRL_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &msc SCRL_UP               &trans  &trans  &trans  &mkp MB1         &mt RSHIFT KP_N4  &mt RALT KP_N5   &mt RCTRL KP_N6  &mt RGUI KP_N0  &rgb_ug RGB_TOG
@@ -119,7 +134,8 @@
             >;
         };
 
-        layer_4 {
+        layer_5 {
+            display-name = "WM";
             bindings = <
 &none  &kp LS(LG(N1))  &kp LS(LG(N2))  &kp LS(LG(N2))  &kp LS(LG(N2))  &kp LS(LG(N2))                  &none         &kp LS(LG(N2))  &kp LS(LG(N2))  &kp LS(LG(N2))  &kp LS(LG(N2))  &kp LS(LG(N2))  &none
 &none  &kp LG(N1)      &kp LG(N2)      &kp LG(N3)      &kp LG(N4)      &kp LG(N5)               &none  &none  &none  &kp LG(N6)      &kp LG(N7)      &kp LG(N8)      &kp LG(N9)      &kp LG(N0)      &trans
