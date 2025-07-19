@@ -249,15 +249,15 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Sft+Gui+1, s: Sft+Gui+!}
   - {t: Sft+Gui+2, s: Sft+Gui+@}
-  - {t: Sft+Gui+2, s: Sft+Gui+@}
-  - {t: Sft+Gui+2, s: Sft+Gui+@}
-  - {t: Sft+Gui+2, s: Sft+Gui+@}
+  - {t: Sft+Gui+3, s: Sft+Gui+#}
+  - {t: Sft+Gui+4, s: Sft+Gui+$}
+  - {t: Sft+Gui+5, s: Sft+Gui+%}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Sft+Gui+2, s: Sft+Gui+@}
-  - {t: Sft+Gui+2, s: Sft+Gui+@}
-  - {t: Sft+Gui+2, s: Sft+Gui+@}
-  - {t: Sft+Gui+2, s: Sft+Gui+@}
-  - {t: Sft+Gui+2, s: Sft+Gui+@}
+  - {t: Sft+Gui+6, s: Sft+Gui+^}
+  - {t: Sft+Gui+7, s: Sft+Gui+&}
+  - {t: Sft+Gui+8, s: Sft+Gui+*}
+  - {t: Sft+Gui+9, s: Sft+Gui+(}
+  - {t: Sft+Gui+0, s: Sft+Gui+)}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Gui+1, s: Gui+!}
