@@ -43,11 +43,11 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '-', s: _}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
-  - CMKDH
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
   - SYMNUM
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', h: CMKDH}
+  - FN
   - $$mdi:apple-keyboard-caps$$
   CMKDH:
   - $$mdi:keyboard-esc$$
@@ -92,11 +92,11 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '-', s: _}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
-  - {t: CMKDH, type: held}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
   - SYMNUM
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', h: QWERTY}
+  - FN
   - $$mdi:apple-keyboard-caps$$
   SYMNUM:
   - Sft+~
@@ -142,10 +142,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   FN:
   - F1
@@ -191,7 +191,7 @@ layers:
   - PLAY PAUSE
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
@@ -239,11 +239,11 @@ layers:
   - KP 3
   - KP DOT
   - $$mdi:progress-download$$
-  - {t: RGB BRI, type: held}
-  - {type: held alternate}
+  - RGB BRI
+  - {type: held}
   - RGB EFF
   - RGB EFR
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - RGB BRD
   WM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -288,7 +288,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
