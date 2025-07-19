@@ -105,7 +105,7 @@
             display-name = "CMKDH";
             bindings = <
 &kp ESCAPE  &kp Q       &kp W        &kp F             &kp P         &kp B                                    &mmv MOVE_UP                           &kp J           &kp L         &kp U         &kp Y        &kp SEMI    &kp BSPC
-&kp TAB     &mt LGUI A  &mt LCTRL S  &mt LALT R        &mt LSHIFT T  &kp G                    &mmv MOVE_LEFT  &mouse_click MB2 MB1  &mmv MOVE_RIGHT  &kp M           &mt RSHIFT N  &mt RALT E    &mt RCTRL I  &mt RGUI O  &kp SQT
+&kp TAB     &mt LGUI A  &mt LCTRL R  &mt LALT S        &mt LSHIFT T  &kp G                    &mmv MOVE_LEFT  &mouse_click MB2 MB1  &mmv MOVE_RIGHT  &kp M           &mt RSHIFT N  &mt RALT E    &mt RCTRL I  &mt RGUI O  &kp SQT
 &kp EQUAL   &kp Z       &kp X        &kp C             &kp D         &kp V      &kp C_MUTE                    &mmv MOVE_DOWN                         &kp K           &kp H         &kp COMMA     &kp DOT      &kp FSLH    &kp MINUS
                                      &mod_kp 5 DELETE  &mo 2         &kp SPACE                                                                       &to_kp 0 ENTER  &mo 3         &kp CAPSLOCK
             >;
