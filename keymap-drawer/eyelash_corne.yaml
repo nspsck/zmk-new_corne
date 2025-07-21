@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - W
   - E
@@ -13,8 +13,8 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: A, h: LGUI}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: D, h: '$$mdi:apple-keyboard-option$$'}
@@ -28,8 +28,8 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-option$$'}
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: RGUI, s: ':'}
-  - {t: '''', s: '"'}
-  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '-', s: _}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
   - SYMNUM
   - $$mdi:keyboard-space$$
@@ -50,7 +50,7 @@ layers:
   - FN
   - $$mdi:apple-keyboard-caps$$
   CMKDH:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - W
   - F
@@ -62,8 +62,8 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: A, h: LGUI}
   - {t: R, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -77,8 +77,8 @@ layers:
   - {t: E, h: '$$mdi:apple-keyboard-option$$'}
   - {t: I, h: '$$mdi:apple-keyboard-control$$'}
   - {t: O, h: RGUI}
-  - {t: '''', s: '"'}
-  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
   - X
   - C
@@ -91,7 +91,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '-', s: _}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
   - SYMNUM
   - $$mdi:keyboard-space$$
@@ -99,7 +99,7 @@ layers:
   - FN
   - $$mdi:apple-keyboard-caps$$
   SYMNUM:
-  - Sft+~
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Sft+!
   - Sft+@
   - Sft+#
@@ -112,7 +112,7 @@ layers:
   - '|'
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '1', h: LGUI, s: '!'}
   - {t: '2', h: '$$mdi:apple-keyboard-control$$', s: '@'}
   - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: '#'}
@@ -197,8 +197,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   MOUSE:
-  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:progress-download$$
   - '&mkp MB2'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '&mkp MB1'
@@ -208,8 +208,8 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - KP NUMLOCK
-  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-right$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -224,8 +224,8 @@ layers:
   - {t: KP 5, h: '$$mdi:apple-keyboard-option$$'}
   - {t: KP 6, h: '$$mdi:apple-keyboard-control$$'}
   - {t: KP 0, h: RGUI}
-  - RGB TOG
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-left$$
   - '&mkp MB4'
   - $$mdi:mouse-scroll-wheel$$
@@ -237,8 +237,8 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - KP DOT
-  - $$mdi:progress-download$$
+  - KP NUM
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB BRI
   - {type: held}
   - RGB EFF
@@ -294,3 +294,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+combos:
+- p: [1, 2]
+  k: $$mdi:keyboard-esc$$
