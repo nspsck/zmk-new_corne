@@ -155,12 +155,12 @@ layers:
   - F4
   - F5
   - {t: '$$mdi:transfer$$', type: trans}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - MUTE
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - PLAY PAUSE
+  - SLEEP MODE
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: F6, h: LGUI}
   - {t: F7, h: '$$mdi:apple-keyboard-control$$'}
@@ -178,7 +178,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F11
-  - '&F12'
+  - F12
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - BT CLR ALL
@@ -188,8 +188,8 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - PLAY PAUSE
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -273,7 +273,7 @@ layers:
   - {t: Gui+8, s: Gui+*}
   - {t: Gui+9, s: Gui+(}
   - {t: Gui+0, s: Gui+)}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
