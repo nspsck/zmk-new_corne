@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
-  - SYMNUM
+  - {t: '$$mdi:keyboard-esc$$', h: WM}
+  - {t: '$$mdi:backspace$$', h: SYMNUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: CMKDH}
-  - FN
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:keyboard-tab$$', h: FN}
+  - $$mdi:backspace-reverse-outline$$
   CMKDH:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
@@ -92,12 +92,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
-  - SYMNUM
+  - {t: '$$mdi:keyboard-esc$$', h: WM}
+  - {t: '$$mdi:backspace$$', h: SYMNUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: QWERTY}
-  - FN
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:keyboard-esc$$', h: FN}
+  - $$mdi:backspace-reverse-outline$$
   SYMNUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Sft+!
@@ -128,25 +128,25 @@ layers:
   - {t: '0', h: RGUI, s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '~'
   - {t: '[', s: '{'}
   - '{'
   - (
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '=', s: +}
   - )
   - '}'
   - {t: ']', s: '}'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-caps$$
   FN:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
@@ -180,8 +180,8 @@ layers:
   - F11
   - F12
   - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - BT CLR ALL
+  - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -294,6 +294,3 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-combos:
-- p: [1, 2]
-  k: $$mdi:keyboard-esc$$
