@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-esc$$', h: WM}
-  - {t: '$$mdi:backspace$$', h: SYMNUM}
+  - {t: '$$mdi:keyboard-tab$$', h: SYMNUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: CMKDH}
-  - {t: '$$mdi:keyboard-tab$$', h: FN}
+  - {t: '$$mdi:keyboard-esc$$', h: FN}
   - $$mdi:backspace-reverse-outline$$
   CMKDH:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -93,10 +93,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-esc$$', h: WM}
-  - {t: '$$mdi:backspace$$', h: SYMNUM}
+  - {t: '$$mdi:keyboard-tab$$', h: SYMNUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: QWERTY}
-  - {t: '$$mdi:keyboard-tab$$', h: FN}
+  - {t: '$$mdi:keyboard-esc$$', h: FN}
   - $$mdi:backspace-reverse-outline$$
   SYMNUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
