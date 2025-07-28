@@ -47,7 +47,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: SYMNUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: CMKDH}
-  - {t: '$$mdi:keyboard-esc$$', h: FN}
+  - {t: '$$mdi:backspace$$', h: FN}
   - $$mdi:backspace-reverse-outline$$
   CMKDH:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: SYMNUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: QWERTY}
-  - {t: '$$mdi:keyboard-esc$$', h: FN}
+  - {t: '$$mdi:backspace$$', h: FN}
   - $$mdi:backspace-reverse-outline$$
   SYMNUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -128,14 +128,14 @@ layers:
   - {t: '0', h: RGUI, s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '~'
+  - {t: '=', s: +}
   - {t: '[', s: '{'}
   - '{'
   - (
+  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '=', s: +}
   - )
   - '}'
   - {t: ']', s: '}'}
