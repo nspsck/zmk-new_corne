@@ -304,6 +304,6 @@ combos:
 - p: [10, 9]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [QWERTY, CMKDH]
-- p: [38, 39]
+- p: [8, 9]
   k: {t: '''', s: '"'}
   l: [QWERTY, CMKDH]
