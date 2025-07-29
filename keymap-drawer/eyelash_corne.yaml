@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-esc$$', h: WM}
-  - {t: '$$mdi:keyboard-tab$$', h: SYMNUM}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
+  - SYMNUM
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: CMKDH}
-  - {t: '$$mdi:backspace$$', h: FN}
-  - $$mdi:backspace-reverse-outline$$
+  - FN
+  - $$mdi:apple-keyboard-caps$$
   CMKDH:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
@@ -92,12 +92,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-esc$$', h: WM}
-  - {t: '$$mdi:keyboard-tab$$', h: SYMNUM}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
+  - SYMNUM
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: QWERTY}
-  - {t: '$$mdi:backspace$$', h: FN}
-  - $$mdi:backspace-reverse-outline$$
+  - FN
+  - $$mdi:apple-keyboard-caps$$
   SYMNUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Sft+!
@@ -128,7 +128,7 @@ layers:
   - {t: '0', h: RGUI, s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '=', s: +}
+  - {t: '=', h: +, s: +}
   - {t: '[', s: '{'}
   - '{'
   - (
@@ -139,14 +139,14 @@ layers:
   - )
   - '}'
   - {t: ']', s: '}'}
-  - {t: '-', s: _}
+  - {t: '-', h: _, s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '"'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   FN:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
@@ -294,3 +294,16 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+combos:
+- p: [2, 3]
+  k: $$mdi:keyboard-esc$$
+  l: [QWERTY, CMKDH]
+- p: [4, 3]
+  k: $$mdi:keyboard-tab$$
+  l: [QWERTY, CMKDH]
+- p: [10, 9]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [QWERTY, CMKDH]
+- p: [38, 39]
+  k: {t: '''', s: '"'}
+  l: [QWERTY, CMKDH]
