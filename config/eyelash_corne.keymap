@@ -193,10 +193,10 @@
         layer_5 {
             display-name = "WM";
             bindings = <
-&none  &kp LS(LG(N1))  &kp LS(LG(N2))  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))                  &none         &kp LS(LG(N6))  &kp LS(LG(N7))  &kp LS(LG(N8))  &kp LS(LG(N9))  &kp LS(LG(N0))  &none
-&none  &kp LG(N1)      &kp LG(N2)      &kp LG(N3)      &kp LG(N4)      &kp LG(N5)               &none  &none  &none  &kp LG(N6)      &kp LG(N7)      &kp LG(N8)      &kp LG(N9)      &kp LG(N0)      &none
-&none  &none           &none           &none           &none           &none           &none           &none         &none           &none           &none           &none           &none           &none
-                                       &trans          &none           &none                                         &none           &none           &none
+&none  &kp LS(LG(N1))                    &kp LS(LG(N2))                     &kp LS(LG(N3))                     &kp LS(LG(N4))                     &kp LS(LG(N5))                                     &none         &kp LS(LG(N6))                   &kp LS(LG(N7))                   &kp LS(LG(N8))                    &kp LS(LG(N9))                     &kp LS(LG(N0))                     &none
+&none  &kp LG(N1)                        &kp LG(N2)                         &kp LG(N3)                         &kp LG(N4)                         &kp LG(N5)                                  &none  &none  &none  &kp LG(N6)                       &kp LG(N7)                       &kp LG(N8)                        &kp LG(N9)                         &kp LG(N0)                         &none
+&none  &rgb_ug RGB_COLOR_HSB(15,100,50)  &rgb_ug RGB_COLOR_HSB(145,100,50)  &rgb_ug RGB_COLOR_HSB(301,100,50)  &rgb_ug RGB_COLOR_HSB(280,100,50)  &rgb_ug RGB_COLOR_HSB(238,100,50)  &none           &none         &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(35,99,49)  &rgb_ug RGB_COLOR_HSB(65,100,50)  &rgb_ug RGB_COLOR_HSB(136,100,50)  &rgb_ug RGB_COLOR_HSB(170,100,50)  &none
+                                                                            &trans                             &none                              &none                                                            &none                            &none                            &none
             >;
         };
     };
