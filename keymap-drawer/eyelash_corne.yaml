@@ -298,7 +298,7 @@ combos:
 - p: [2, 3]
   k: $$mdi:keyboard-esc$$
   l: [QWERTY, CMKDH]
-- p: [4, 3]
+- p: [15, 16]
   k: $$mdi:keyboard-tab$$
   l: [QWERTY, CMKDH]
 - p: [10, 9]
