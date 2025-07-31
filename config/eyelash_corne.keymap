@@ -106,28 +106,30 @@
             bindings = <&kp ESC>;
             key-positions = <2 3>;
             layers = <0 1>;
-            require-prior-idle-ms = <180>;
+            require-prior-idle-ms = <300>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <4 3>;
+            key-positions = <15 16>;
             layers = <0 1>;
-            require-prior-idle-ms = <180>;
+            require-prior-idle-ms = <300>;
         };
 
         bspc {
             bindings = <&kp BSPC>;
             key-positions = <10 9>;
             layers = <0 1>;
-            require-prior-idle-ms = <180>;
+            require-prior-idle-ms = <300>;
+            timeout-ms = <60>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <8 9>;
             layers = <0 1>;
-            require-prior-idle-ms = <180>;
+            require-prior-idle-ms = <300>;
+            timeout-ms = <40>;
         };
     };
 
