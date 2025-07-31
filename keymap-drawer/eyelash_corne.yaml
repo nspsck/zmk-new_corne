@@ -275,18 +275,18 @@ layers:
   - {t: Gui+0, s: Gui+)}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB COLOR HSB(15,100,50)
+  - RGB COLOR HSB(145,100,50)
+  - RGB COLOR HSB(301,100,50)
+  - RGB COLOR HSB(280,100,50)
+  - RGB COLOR HSB(238,100,50)
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB COLOR HSB(0,100,50)
+  - RGB COLOR HSB(35,99,49)
+  - RGB COLOR HSB(65,100,50)
+  - RGB COLOR HSB(136,100,50)
+  - RGB COLOR HSB(170,100,50)
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
