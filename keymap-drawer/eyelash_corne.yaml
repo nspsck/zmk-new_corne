@@ -159,7 +159,7 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - PLAY PAUSE
-  - SLEEP MODE
+  - '&soft_off'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: F6, h: LGUI}
