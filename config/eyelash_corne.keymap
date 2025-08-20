@@ -118,18 +118,18 @@
 
         bspc {
             bindings = <&kp BSPC>;
-            key-positions = <10 9>;
+            key-positions = <9 8>;
             layers = <0 1>;
             require-prior-idle-ms = <300>;
-            timeout-ms = <60>;
+            timeout-ms = <40>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <8 9>;
+            key-positions = <38 39>;
             layers = <0 1>;
             require-prior-idle-ms = <300>;
-            timeout-ms = <40>;
+            timeout-ms = <50>;
         };
     };
 
