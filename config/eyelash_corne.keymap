@@ -163,10 +163,10 @@
         layer_2 {
             display-name = "SYMNUM";
             bindings = <
-&none  &kp LS(EXCL)          &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)   &kp LS(PRCNT)                    &trans          &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp PIPE      &kp BSLH                    &none
-&none  &mt_pinky LGUI N1     &mt LCTRL N2  &mt LALT N3    &mt LSHIFT N4  &kp N5                   &trans  &trans  &trans  &kp N6         &mt RSHIFT N7  &mt RALT N8   &mt RCTRL N9  &mt_pinky RGUI N0           &none
-&none  &mt_pinky PLUS EQUAL  &kp LBKT      &kp LBRC       &kp LPAR       &kp TILDE      &trans            &trans          &kp GRAVE      &kp RPAR       &kp RBRC      &kp RBKT      &mt_pinky UNDERSCORE MINUS  &none
-                                           &none          &trans         &none                                            &none          &trans         &none
+&none  &kp LS(EXCL)       &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)   &kp LS(PRCNT)                    &trans          &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp PIPE      &kp BSLH              &none
+&none  &mt_pinky LGUI N1  &mt LCTRL N2  &mt LALT N3    &mt LSHIFT N4  &kp N5                   &trans  &trans  &trans  &kp N6         &mt RSHIFT N7  &mt RALT N8   &mt RCTRL N9  &mt_pinky RGUI N0     &none
+&none  &mt PLUS EQUAL     &kp LBKT      &kp LBRC       &kp LPAR       &kp TILDE      &trans            &trans          &kp GRAVE      &kp RPAR       &kp RBRC      &kp RBKT      &mt UNDERSCORE MINUS  &none
+                                        &none          &trans         &none                                            &none          &trans         &none
             >;
         };
 
