@@ -1,54 +1,5 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  QWERTY:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - $$mdi:pan-up$$
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: A, h: LGUI}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - G
-  - $$mdi:pan-left$$
-  - PLAY PAUSE
-  - $$mdi:pan-right$$
-  - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: RGUI, s: ':'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - $$mdi:volume-off$$
-  - $$mdi:pan-down$$
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
-  - SYMNUM
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: CMKDH}
-  - FN
-  - $$mdi:apple-keyboard-caps$$
   CMKDH:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
@@ -96,6 +47,55 @@ layers:
   - SYMNUM
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: QWERTY}
+  - FN
+  - $$mdi:apple-keyboard-caps$$
+  QWERTY:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:pan-up$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: A, h: LGUI}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - $$mdi:pan-left$$
+  - PLAY PAUSE
+  - $$mdi:pan-right$$
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ;, h: RGUI, s: ':'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:volume-off$$
+  - $$mdi:pan-down$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
+  - SYMNUM
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', h: CMKDH}
   - FN
   - $$mdi:apple-keyboard-caps$$
   SYMNUM:
@@ -297,13 +297,13 @@ layers:
 combos:
 - p: [2, 3]
   k: $$mdi:keyboard-esc$$
-  l: [QWERTY, CMKDH]
+  l: [CMKDH, QWERTY]
 - p: [15, 16]
   k: $$mdi:keyboard-tab$$
-  l: [QWERTY, CMKDH]
+  l: [CMKDH, QWERTY]
 - p: [9, 8]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [QWERTY, CMKDH]
+  l: [CMKDH, QWERTY]
 - p: [38, 39]
   k: {t: '''', s: '"'}
-  l: [QWERTY, CMKDH]
+  l: [CMKDH, QWERTY]
