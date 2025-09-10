@@ -123,7 +123,7 @@
             key-positions = <9 8>;
             layers = <0 1>;
             require-prior-idle-ms = <300>;
-            timeout-ms = <40>;
+            timeout-ms = <50>;
         };
 
         quote {
