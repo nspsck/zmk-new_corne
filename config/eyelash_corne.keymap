@@ -122,15 +122,15 @@
             bindings = <&kp BSPC>;
             key-positions = <9 8>;
             layers = <0 1>;
-            require-prior-idle-ms = <300>;
+            require-prior-idle-ms = <130>;
             timeout-ms = <50>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <38 39>;
+            key-positions = <39 38>;
             layers = <0 1>;
-            require-prior-idle-ms = <300>;
+            require-prior-idle-ms = <130>;
             timeout-ms = <50>;
         };
     };
