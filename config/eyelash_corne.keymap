@@ -115,7 +115,7 @@
             key-positions = <15 16>;
             layers = <0 1>;
             require-prior-idle-ms = <10>;
-            timeout-ms = <55>;
+            timeout-ms = <60>;
         };
 
         bspc {
