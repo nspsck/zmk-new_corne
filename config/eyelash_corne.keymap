@@ -106,7 +106,7 @@
             bindings = <&kp ESC>;
             key-positions = <2 3>;
             layers = <0 1>;
-            require-prior-idle-ms = <300>;
+            require-prior-idle-ms = <130>;
             timeout-ms = <55>;
         };
 
