@@ -114,7 +114,7 @@
             bindings = <&kp TAB>;
             key-positions = <15 16>;
             layers = <0 1>;
-            require-prior-idle-ms = <40>;
+            require-prior-idle-ms = <10>;
             timeout-ms = <55>;
         };
 
