@@ -114,8 +114,8 @@
             bindings = <&kp TAB>;
             key-positions = <15 16>;
             layers = <0 1>;
-            require-prior-idle-ms = <300>;
-            timeout-ms = <60>;
+            require-prior-idle-ms = <180>;
+            timeout-ms = <55>;
         };
 
         bspc {
