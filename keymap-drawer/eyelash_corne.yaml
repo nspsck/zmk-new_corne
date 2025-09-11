@@ -295,10 +295,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
-- p: [3, 4]
+- p: [3, 2]
   k: $$mdi:keyboard-esc$$
   l: [CMKDH, QWERTY]
-- p: [16, 17]
+- p: [16, 15]
   k: $$mdi:keyboard-tab$$
   l: [CMKDH, QWERTY]
 - p: [9, 8]
