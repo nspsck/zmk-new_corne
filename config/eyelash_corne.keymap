@@ -104,7 +104,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <3 4>;
+            key-positions = <3 2>;
             layers = <0 1>;
             require-prior-idle-ms = <130>;
             timeout-ms = <55>;
@@ -112,7 +112,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <16 17>;
+            key-positions = <16 15>;
             layers = <0 1>;
             require-prior-idle-ms = <130>;
             timeout-ms = <45>;
