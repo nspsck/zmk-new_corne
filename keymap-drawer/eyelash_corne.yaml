@@ -46,9 +46,9 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
   - SYMNUM
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: QWERTY}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - FN
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: QWERTY}
   QWERTY:
   - $$mdi:keyboard-esc$$
   - Q
@@ -95,9 +95,9 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
   - SYMNUM
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: CMKDH}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - FN
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: CMKDH}
   SYMNUM:
   - Sft+~
   - Sft+!
