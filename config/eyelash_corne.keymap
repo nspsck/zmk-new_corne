@@ -179,10 +179,10 @@
         layer_1 {
             display-name = "QWERTY";
             bindings = <
-&none  &kp Q             &kp W        &kp E             &kp R         &kp T                                    &msc SCRL_UP                       &kp Y      &kp U         &kp I          &kp O        &kp P                &none
+&none  &kp Q        &kp W        &kp E             &kp R          &kp T                                    &msc SCRL_UP                     &kp Y      &kp U          &kp I          &kp O        &kp P           &none
 &none  &hml LGUI A  &hml LALT S  &hml LCTRL D      &hml LSHIFT F  &kp G                    &msc SCRL_LEFT  &kp C_PP        &msc SCRL_RIGHT  &kp H      &hmr RSHIFT J  &hmr RCTRL K   &hmr RALT L  &hmr RGUI SEMI  &none
-&none  &kp Z             &kp X        &kp C             &kp V         &kp B      &kp C_MUTE                    &msc SCRL_DOWN                     &kp N      &kp M         &kp COMMA      &kp DOT      &kp SLASH            &none
-                                      &mod_kp 5 DELETE  &mo 2         &kp SPACE                                                                   &kp ENTER  &mo 3         &to_kp 0 CAPS
+&none  &kp Z        &kp X        &kp C             &kp V          &kp B      &kp C_MUTE                    &msc SCRL_DOWN                   &kp N      &kp M          &kp COMMA      &kp DOT      &kp SLASH       &none
+                                 &mod_kp 5 DELETE  &mo 2          &kp SPACE                                                                 &kp ENTER  &mo 3          &to_kp 0 CAPS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -191,29 +191,29 @@
         layer_2 {
             display-name = "SYMNUM";
             bindings = <
-&none  &kp LS(EXCL)       &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)   &kp LS(PRCNT)                    &trans          &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp PIPE      &kp BSLH              &none
-&none  &hml LGUI N1  &hml LCTRL N2  &hml LALT N3    &hml LSHIFT N4  &kp N5                   &trans  &trans  &trans  &kp N6         &hmr RSHIFT N7  &hmr RALT N8   &hmr RCTRL N9  &hmr RGUI N0     &none
-&none  &mt PLUS EQUAL     &kp LBKT      &kp LBRC       &kp LPAR       &kp TILDE      &trans            &trans          &kp GRAVE      &kp RPAR       &kp RBRC      &kp RBKT      &mt UNDERSCORE MINUS  &none
-                                        &none          &trans         &none                                            &none          &trans         &none
+&none  &kp LS(EXCL)    &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)    &kp LS(PRCNT)                    &trans          &kp LS(CARET)  &kp LS(AMPS)    &kp LS(STAR)   &kp PIPE      &kp BSLH              &none
+&none  &hml LGUI N1    &hml LALT N2  &hml LCTRL N3  &hml LSHIFT N4  &kp N5                   &trans  &trans  &trans  &kp N6         &hmr RSHIFT N7  &hmr RCTRL N8  &hmr RALT N9  &hmr RGUI N0          &none
+&none  &mt PLUS EQUAL  &kp LBKT      &kp LBRC       &kp LPAR        &kp TILDE      &trans            &trans          &kp GRAVE      &kp RPAR        &kp RBRC       &kp RBKT      &mt UNDERSCORE MINUS  &none
+                                     &none          &trans          &none                                            &none          &trans          &none
             >;
         };
 
         layer_3 {
             display-name = "FN";
             bindings = <
-&none  &kp F1             &kp F2        &kp F3           &kp F4         &kp F5                        &trans          &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP  &kp C_PLAY_PAUSE  &soft_off     &none
-&none  &hml LGUI F6  &hml LCTRL F7  &hml LALT F8      &hml LSHIFT F9  &kp F10               &trans  &trans  &trans  &kp LEFT      &hmr RSHIFT DOWN  &hmr LALT UP   &hmr RCTRL RIGHT   &hmr LGUI      &none
-&none  &kp F11            &kp F12       &none            &none          &bt BT_CLR  &trans            &trans          &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4  &none
-                                        &rgb_ug RGB_TOG  &trans         &kp CAPS                                      &none         &trans           &none
+&none  &kp F1        &kp F2        &kp F3           &kp F4          &kp F5                        &trans          &kp C_MUTE    &kp C_VOL_DN      &kp C_VOL_UP   &kp C_PLAY_PAUSE  &soft_off     &none
+&none  &hml LGUI F6  &hml LALT F7  &hml LCTRL F8    &hml LSHIFT F9  &kp F10               &trans  &trans  &trans  &kp LEFT      &hmr RSHIFT DOWN  &hmr RCTRL UP  &hmr RALT RIGHT   &kp LGUI      &none
+&none  &kp F11       &kp F12       &none            &none           &bt BT_CLR  &trans            &trans          &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2   &bt BT_SEL 3      &bt BT_SEL 4  &none
+                                   &rgb_ug RGB_TOG  &trans          &kp CAPS                                      &none         &trans            &none
             >;
         };
 
         layer_4 {
             display-name = "MOUSE";
             bindings = <
-&none  &bootloader      &mkp MB2        &mmv MOVE_UP     &mkp MB1         &kp PRINTSCREEN                    &trans          &mkp MCLK        &kp KP_N7         &kp KP_N8        &kp KP_N9        &bootloader           &none
-&none  &msc SCRL_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &msc SCRL_UP               &trans  &trans  &trans  &mkp MB1         &mt RSHIFT KP_N4  &mt RALT KP_N5   &mt RCTRL KP_N6  &mt_pinky RGUI KP_N0  &none
-&none  &msc SCRL_LEFT   &mkp MB4        &mkp MCLK        &mkp MB5         &msc SCRL_DOWN   &trans            &trans          &mkp MB2         &kp KP_N1         &kp KP_N2        &kp KP_N3        &kp KP_NUM            &none
+&none  &bootloader      &mkp MB2        &mmv MOVE_UP     &mkp MB1         &kp PRINTSCREEN                    &trans          &mkp MCLK        &kp KP_N7         &kp KP_N8        &kp KP_N9       &bootloader           &none
+&none  &msc SCRL_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &msc SCRL_UP               &trans  &trans  &trans  &mkp MB1         &mt LSHIFT KP_N4  &mt LCTRL KP_N5  &mt LALT KP_N6  &mt_pinky LGUI KP_N0  &none
+&none  &msc SCRL_LEFT   &mkp MB4        &mkp MCLK        &mkp MB5         &msc SCRL_DOWN   &trans            &trans          &mkp MB2         &kp KP_N1         &kp KP_N2        &kp KP_N3       &kp KP_NUM            &none
                                         &rgb_ug RGB_BRI  &trans           &rgb_ug RGB_EFF                                    &rgb_ug RGB_EFR  &trans            &rgb_ug RGB_BRD
             >;
         };
