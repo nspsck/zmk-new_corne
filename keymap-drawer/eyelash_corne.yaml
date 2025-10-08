@@ -114,8 +114,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '1', h: LGUI, s: '!'}
-  - {t: '2', h: '$$mdi:apple-keyboard-control$$', s: '@'}
-  - {t: '3', h: '$$mdi:apple-keyboard-option$$', s: '#'}
+  - {t: '2', h: '$$mdi:apple-keyboard-option$$', s: '@'}
+  - {t: '3', h: '$$mdi:apple-keyboard-control$$', s: '#'}
   - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
   - {t: '5', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -123,8 +123,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '6', s: ^}
   - {t: '7', h: '$$mdi:apple-keyboard-shift$$', s: '&'}
-  - {t: '8', h: '$$mdi:apple-keyboard-option$$', s: '*'}
-  - {t: '9', h: '$$mdi:apple-keyboard-control$$', s: (}
+  - {t: '8', h: '$$mdi:apple-keyboard-control$$', s: '*'}
+  - {t: '9', h: '$$mdi:apple-keyboard-option$$', s: (}
   - {t: '0', h: RGUI, s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -163,8 +163,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: F6, h: LGUI}
-  - {t: F7, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F8, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F7, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F8, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F9, h: '$$mdi:apple-keyboard-shift$$'}
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
@@ -172,9 +172,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-control$$'}
-  - '&hmr LGUI'
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-option$$'}
+  - LGUI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F11
@@ -221,9 +221,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB1'
   - {t: KP 4, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: KP 5, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: KP 6, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: KP 0, h: RGUI}
+  - {t: KP 5, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: KP 6, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: KP 0, h: LGUI}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-left$$
