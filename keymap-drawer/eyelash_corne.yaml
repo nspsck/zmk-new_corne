@@ -301,7 +301,7 @@ combos:
 - p: [16, 15]
   k: $$mdi:keyboard-tab$$
   l: [CMKDH, QWERTY]
-- p: [9, 8]
+- p: [8, 9]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [CMKDH, QWERTY]
 - p: [39, 38]
