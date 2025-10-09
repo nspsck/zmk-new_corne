@@ -130,18 +130,18 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <3 2>;
+            key-positions = <3 4>;
             layers = <0 1>;
             require-prior-idle-ms = <130>;
-            timeout-ms = <55>;
+            timeout-ms = <40>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <16 15>;
+            key-positions = <16 17>;
             layers = <0 1>;
             require-prior-idle-ms = <130>;
-            timeout-ms = <45>;
+            timeout-ms = <40>;
         };
 
         bspc {
@@ -149,7 +149,7 @@
             key-positions = <8 9>;
             layers = <0 1>;
             require-prior-idle-ms = <130>;
-            timeout-ms = <45>;
+            timeout-ms = <40>;
         };
 
         quote {
