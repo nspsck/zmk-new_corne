@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   CMKDH:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - F
@@ -13,8 +13,8 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
   - {t: A, h: LGUI}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
@@ -28,8 +28,8 @@ layers:
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: O, h: RGUI}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '''', s: '"'}
+  - {t: '=', s: +}
   - Z
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '-', s: _}
   - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
   - SYMNUM
   - $$mdi:keyboard-space$$
@@ -50,7 +50,7 @@ layers:
   - FN
   - {t: '$$mdi:apple-keyboard-caps$$', h: QWERTY}
   QWERTY:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -62,8 +62,8 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
   - {t: A, h: LGUI}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -77,8 +77,8 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RGUI, s: ':'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '''', s: '"'}
+  - {t: '=', s: +}
   - Z
   - X
   - C
@@ -91,7 +91,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '-', s: _}
   - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
   - SYMNUM
   - $$mdi:keyboard-space$$
@@ -99,7 +99,7 @@ layers:
   - FN
   - {t: '$$mdi:apple-keyboard-caps$$', h: CMKDH}
   SYMNUM:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '~'
   - Sft+!
   - Sft+@
   - Sft+#
@@ -112,7 +112,7 @@ layers:
   - '|'
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '`', s: '~'}
   - {t: '1', h: LGUI, s: '!'}
   - {t: '2', h: '$$mdi:apple-keyboard-option$$', s: '@'}
   - {t: '3', h: '$$mdi:apple-keyboard-control$$', s: '#'}
@@ -197,7 +197,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   MOUSE:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-esc$$
   - $$mdi:progress-download$$
   - '&mkp MB2'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -209,7 +209,7 @@ layers:
   - KP 8
   - KP 9
   - $$mdi:progress-download$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-right$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -224,8 +224,8 @@ layers:
   - {t: KP 5, h: '$$mdi:apple-keyboard-control$$'}
   - {t: KP 6, h: '$$mdi:apple-keyboard-option$$'}
   - {t: KP 0, h: LGUI}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB TOG
+  - $$mdi:progress-download$$
   - $$mdi:pan-left$$
   - '&mkp MB4'
   - $$mdi:mouse-scroll-wheel$$
@@ -238,7 +238,7 @@ layers:
   - KP 2
   - KP 3
   - KP NUM
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:progress-download$$
   - RGB BRI
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
