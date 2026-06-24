@@ -111,6 +111,7 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <14 26>;
             flavor = "tap-preferred";
+        };
 
         rsr_vol: rsr_vol {
             compatible = "zmk,behavior-runtime-sensor-rotate";
