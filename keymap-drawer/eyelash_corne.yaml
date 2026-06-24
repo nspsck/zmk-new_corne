@@ -240,10 +240,10 @@ layers:
   - KP NUM
   - $$mdi:progress-download$$
   - RGB BRI
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - RGB EFF
   - RGB EFR
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - RGB BRD
   WM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
