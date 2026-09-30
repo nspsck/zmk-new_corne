@@ -48,56 +48,56 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - FN
-  - {t: '$$mdi:apple-keyboard-caps$$', h: QWERTY}
-  QWERTY:
+  - {t: '$$mdi:apple-keyboard-caps$$', h: GAMING}
+  GAMING:
   - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
+  - $$mdi:pan-up$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
   - R
   - T
-  - $$mdi:pan-up$$
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
-  - {t: A, h: LGUI}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - G
   - $$mdi:pan-left$$
   - $$mdi:play-pause$$
   - $$mdi:pan-right$$
-  - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: RGUI, s: ':'}
-  - {t: '''', s: '"'}
-  - {t: '=', s: +}
-  - Z
-  - X
-  - C
-  - V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - B
+  - A
+  - S
+  - D
+  - F
+  - G
   - $$mdi:volume-off$$
   - $$mdi:pan-down$$
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '-', s: _}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: WM}
-  - SYMNUM
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - FN
-  - {t: '$$mdi:apple-keyboard-caps$$', h: CMKDH}
+  - {t: CMKDH, h: toggle}
+  - {t: CMKDH, h: toggle}
   SYMNUM:
   - '~'
   - Sft+!
@@ -299,13 +299,13 @@ combos:
   k: '&soft_off'
 - p: [3, 4]
   k: $$mdi:keyboard-esc$$
-  l: [CMKDH, QWERTY]
+  l: [CMKDH, GAMING]
 - p: [16, 17]
   k: $$mdi:keyboard-tab$$
-  l: [CMKDH, QWERTY]
+  l: [CMKDH, GAMING]
 - p: [8, 9]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [CMKDH, QWERTY]
+  l: [CMKDH, GAMING]
 - p: [39, 38]
   k: {t: '''', s: '"'}
-  l: [CMKDH, QWERTY]
+  l: [CMKDH, GAMING]
