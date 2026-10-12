@@ -7,7 +7,7 @@ layers:
   - F
   - P
   - B
-  - $$mdi:pan-up$$
+  - PgUp
   - J
   - L
   - U
@@ -20,9 +20,9 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - G
-  - $$mdi:pan-left$$
+  - PREVIOUS
   - $$mdi:play-pause$$
-  - $$mdi:pan-right$$
+  - $$mdi:skip-next$$
   - M
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
@@ -36,7 +36,7 @@ layers:
   - D
   - V
   - $$mdi:volume-off$$
-  - $$mdi:pan-down$$
+  - PgDn
   - K
   - H
   - {t: ',', s: <}
@@ -159,7 +159,7 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - PLAY PAUSE
-  - '&soft_off'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: F6, h: LGUI}
@@ -198,7 +198,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   MOUSE:
   - $$mdi:keyboard-esc$$
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB2'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '&mkp MB1'
@@ -208,7 +208,7 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-right$$
@@ -294,18 +294,3 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-combos:
-- p: [1, 15, 29]
-  k: '&soft_off'
-- p: [3, 4]
-  k: $$mdi:keyboard-esc$$
-  l: [CMKDH, GAMING]
-- p: [16, 17]
-  k: $$mdi:keyboard-tab$$
-  l: [CMKDH, GAMING]
-- p: [8, 9]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [CMKDH, GAMING]
-- p: [39, 38]
-  k: {t: '''', s: '"'}
-  l: [CMKDH, GAMING]
