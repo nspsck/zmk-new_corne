@@ -36,15 +36,19 @@ The keyboard now supports key remapping via DYA STUDIO. Chinese users should con
 The right half uses the `nice_view_chibi` shield to show the approved sleeping
 dragon portrait on its nice!view display. The left half keeps the standard status
 screen. The portrait fills the right screen, replacing its status indicators.
-Studio support and the keymap are preserved. The image is static and uses the
-existing display sleep behavior.
+Studio support and the keymap are preserved. The portrait gently rises and falls
+by two pixels over a five-second breathing cycle. It settles while the keyboard
+is idle, keeping the image visible and preserving the existing sleep behavior.
+The custom screen checks for updates four times per second.
 
 ![Sleepy chibi at 6x pixel scale](assets/nice_view_chibi/sleepy-chibi-preview.png)
 
 The [approved artwork](assets/nice_view_chibi/sleepy-chibi-source.png) is converted
 to a [68 × 160 monochrome bitmap](assets/nice_view_chibi/sleepy-chibi-68x160.png).
 The firmware asset is pre-rotated clockwise into the panel's native 160 × 68
-framebuffer and occupies 1,368 bytes including its palette.
+framebuffer and occupies 1,368 bytes including its palette. The firmware palette
+compensates for the pinned Zephyr LVGL driver's reversed monochrome mapping, so
+the physical display matches the preview's white character on a black background.
 
 To regenerate the bitmap, install ImageMagick 7 and run:
 
