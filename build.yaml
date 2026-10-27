@@ -1,11 +1,12 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: eyelash_corne_right nice_view
+    shield: eyelash_corne_right nice_view_chibi
+    artifact-name: eyelash_corne_chibi_right
   - board: nice_nano_v2
-    shield: eyelash_corne_left nice_view_chibi
+    shield: eyelash_corne_left nice_view
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
-    artifact-name: eyelash_corne_chibi_studio_left
+    artifact-name: eyelash_corne_studio_left
   - board: nice_nano_v2
     shield: settings_reset

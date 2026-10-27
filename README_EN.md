@@ -33,9 +33,9 @@ The keyboard now supports key remapping via DYA STUDIO. Chinese users should con
 
 ## Sleepy chibi display
 
-The left half uses the `nice_view_chibi` shield to show the approved sleeping
-dragon portrait on its nice!view display. The right half keeps the standard status
-screen. The portrait fills the left screen, replacing its status indicators.
+The right half uses the `nice_view_chibi` shield to show the approved sleeping
+dragon portrait on its nice!view display. The left half keeps the standard status
+screen. The portrait fills the right screen, replacing its status indicators.
 Studio support and the keymap are preserved. The image is static and uses the
 existing display sleep behavior.
 
@@ -57,19 +57,23 @@ The generator also saves the enlarged pixel preview above. Image generation is
 not needed to rebuild the firmware; the converted C asset is included alongside
 the custom shield.
 
-### Build and flash the left half
+### Build and flash the right half
 
 The existing **Build ZMK firmware** GitHub Actions workflow builds the portrait
 configuration from `build.yaml`. Download its `firmware` artifact and extract
-`eyelash_corne_chibi_studio_left.uf2`.
+`eyelash_corne_chibi_right.uf2`.
 
-Connect the **left half** with a USB data cable, then quickly press its reset
-button twice. Copy `eyelash_corne_chibi_studio_left.uf2` onto the bootloader drive
-(typically `NICENANO`). The drive ejects as the keyboard restarts. Only the left
-half needs this update; no settings reset is needed.
+Connect the **right half** with a USB data cable, then quickly press its reset
+button twice. Copy `eyelash_corne_chibi_right.uf2` onto the bootloader drive
+(typically `NICENANO`). The drive ejects as the keyboard restarts. No settings
+reset is needed.
 
-To restore the stock left screen, change its shield back to
-`eyelash_corne_left nice_view` in `build.yaml`, rebuild, and flash that left-half
+If you previously flashed the chibi firmware onto the left half, restore its
+normal status screen by flashing `eyelash_corne_studio_left.uf2` from the same
+build onto the **left half**. Otherwise, only the right half needs updating.
+
+To restore the stock right screen, change its shield back to
+`eyelash_corne_right nice_view` in `build.yaml`, rebuild, and flash that right-half
 firmware. The keymap and Bluetooth pairing settings are unaffected by this
 display change.
 
